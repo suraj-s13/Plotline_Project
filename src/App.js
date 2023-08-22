@@ -1,14 +1,17 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch ,faChevronLeft, faHome,faBars} from "@fortawesome/free-solid-svg-icons";
 import call from "./assests/call.png";
 import game from "./assests/game.png";
-import logo from "./assests/logo.png";
-import google from "./assests/google.png";
 import social from "./assests/social.png";
 import weather from "./assests/weather.png";
 import RoundButton from "./RoundButton";
+import DigitalClock from './DigitalClock';
+
 
 import "./App.css";
+
+
 
 function App() {
   const description =
@@ -26,9 +29,8 @@ function App() {
             <p className="Description">{description}</p>
           </div>
           <div className="input-box">
-            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
+            <FontAwesomeIcon icon={faSearch} className="xx" />
             <input type="text" placeholder="Search here..." />
-            {/* <button className="button">Search</button> */}
           </div>
 
           <div className="buttons">
@@ -82,18 +84,21 @@ function App() {
         </div>
       </div>
       <div className="line"></div>
+
       <div className="header">
         <div className="sensor-3"></div>
       </div>
 
       <div className="volume-button"></div>
       <div className="power-button"></div>
+      <div className="time">
+      <DigitalClock />
+      </div>
+      
       <div className="nav-bar">
-        <div className="back">
-          <span style={{display:"none"}}></span>
-          <span></span>
-          <span></span>
-        </div>
+        <span className="bottom"> <FontAwesomeIcon icon={faChevronLeft} /></span>
+        <span className="bottom"> <FontAwesomeIcon icon={faHome} /></span>
+        <span className="bottom"> <FontAwesomeIcon icon={faBars} /></span>
       </div>
     </div>
   );
