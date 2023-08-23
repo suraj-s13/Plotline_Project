@@ -13,22 +13,22 @@ $ npm install
 [ C:\Users\HP\OneDrive\Desktop\Avantika\Mytooltipapp $ npm start ]
 ## Repo Structure
 /
-├─ public/
-│  ├─ favicon.ico/     #representing website   
-│  ├─ index.html/      #webpage of a website
-│  ├─ logo192.png/     #image for web icons
-│  ├─ logo512.png/     #image for web icons for larger size
-│  ├─ manifest.json/   #allows installation use on devices
-|  ├─robots.txt/       #web text file guiding search engine access to pages
-├─ src/
-│  ├─ assets/        # Assets
-│  │  ├─ App.css/    #Css code for our project
-│  │  ├─ App.js/     #html/js code for our project
-│  │  ├─ DigitalClock.js/    # Code for printing real-time time
-│  │
-│  ├─ .gitignore/    # guide for Git on what files and folders to disregard
-│  ├─ package-lock.json/  #maintains package versions for consistent Node.js development
-|  ├─ package.json      # Project manifest
-   └─ README.md         # This file
+├─ public/<br>
+│  ├─ favicon.ico/     #representing website <br>
+│  ├─ index.html/      #webpage of a website <br>
+│  ├─ logo192.png/     #image for web icons <br>
+│  ├─ logo512.png/     #image for web icons for larger size <br>
+│  ├─ manifest.json/   #allows installation use on devices <br>
+|  ├─robots.txt/       #web text file guiding search engine access to pages <br>
+├─ src/<br>
+│  ├─ assets/        # Assets <br>
+│  │  ├─ App.css/    #Css code for our project <br>
+│  │  ├─ App.js/     #html/js code for our project <br>
+│  │  ├─ DigitalClock.js/    # Code for printing real-time time <br>
+│  │<br>
+│  ├─ .gitignore/    # guide for Git on what files and folders to disregard <br>
+│  ├─ package-lock.json/  #maintains package versions for consistent Node.js development <br>
+|  ├─ package.json      # Project manifest <br>
+   └─ README.md         # This file <br>
 
 
