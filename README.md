@@ -6,11 +6,11 @@ To begin development, it's essential to have Node.js installed in your environme
 ### Node installation on Windows
 Simply visit the official Node.js website and acquire the installer from there. Additionally, ensure that git is accessible in your PATH, as npm might require it.
 ## Install
-$ git clone https://github.com/ORG/Plotline_Project.git
-$ cd Plotline_Project
-$ npm install
+$ git clone https://github.com/Avantika87/Plotline_Project.git <br> 
+$ cd Plotline_Project <br>
+$ npm install <br>
 ### Start & Watch
-[ C:\Users\HP\OneDrive\Desktop\Avantika\Mytooltipapp $ npm start ]
+[ $ npm start ]
 ## Repo Structure
 /
 ├─ public/<br>
