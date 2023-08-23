@@ -314,13 +314,13 @@ body {
 }
 
 .time{
-  position: fixed;
+  position: absolute;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   color: #fff;
   font-size: 40px;
-  z-index: 400;
-  bottom: 35vh;
-  left: 44vw;
+  z-index: 10001;
+  top:65%;
+  left: 20%;
 }
 
