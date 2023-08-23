@@ -15,7 +15,7 @@ import "./App.css";
 
 function App() {
   const description =
-    "Design is more than appearance,it's about functionality.";
+    "Design is more than appearance, it's about functionality.";
   return (
     <div className="Android">
       <div className="side">
