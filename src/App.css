@@ -301,11 +301,11 @@ body {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   color: #fff;
-  font-size: 40px;
-  margin-right:-70px;
+  font-size: 35px;
+  margin-left:-45px;
   z-index: 10001;
   top:65%;
-  left: 25%;
+  left: 50%;
   
 }
 
