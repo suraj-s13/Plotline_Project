@@ -7,19 +7,7 @@ body {
   font-family: 'Raleway', sans-serif;
   overflow-y: hidden;
 }
-.made_heading{
-  margin-top: 0px;
-  color: rgb(88, 88, 88);
-}
-.Description{
-  margin-top: 5px;
-  text-align:center;
-  font-size:15px;
-  font-family:Arial, Helvetica, sans-serif;
-  color:rgb(88, 88, 88);
-  font-weight: 600;
-  
-}
+
 .bg{
   background-image: url(./assests/logo.png);
   width:200px;
@@ -61,8 +49,8 @@ body {
   margin-bottom: 0%;
   margin-left: -2%;
   text-align: right;
-  font-size: 40px;
-  padding:10px;
+  font-size: 45px;
+  padding:16px;
    
   
 
@@ -71,30 +59,24 @@ body {
   margin-top: 0%;
   margin-bottom: 0%;
   font-weight: 900;
-
+  padding:0px;
 }
-.plotline_heading{
-  margin: -25px;
-  margin-right: auto;
-  padding-left: 42px;
-
+  .made_heading{
+  margin-top: 0px;
+  color: rgb(88, 88, 88);
+    padding:0px;
+    margin-right:-108px;
 }
-.made_heading{
-  font-size: medium;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.Description{
+  margin-top: 45px;
+  text-align:center;
+  font-size:15px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:normal;
+  color:rgb(88, 88, 88);
+  font-weight: 600;
   
-  margin-right:-95px;
-  padding:10px;
-  
-
-
 }
-/* .search {
-  height:50px;
-  width:40vw;
-  background-color: transparent; */
- 
-
 .mainHeader p {
   width: 250px;
   overflow-wrap: break-word;
